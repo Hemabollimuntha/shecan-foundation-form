@@ -3,47 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>She Can Foundation Form</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
 
+    <title>She Can Foundation</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+    <!-- Form Container -->
 
     <div class="container">
 
         <h1>She Can Foundation</h1>
 
-        <p>Contact Us Form</p>
+        <p>Empowering Women Through Opportunities</p>
 
         <form id="contactForm">
 
-            <div class="input-box">
-                <label>Name</label>
-                <input type="text" placeholder="Enter your name" required>
-            </div>
+            <!-- Name -->
 
             <div class="input-box">
-                <label>Email</label>
-                <input type="email" placeholder="Enter your email" required>
+
+                <label>Full Name</label>
+
+                <input
+                type="text"
+                placeholder="Enter your name"
+                required>
+
             </div>
+
+            <!-- Email -->
 
             <div class="input-box">
-                <label>Message</label>
-                <textarea placeholder="Enter your message" required></textarea>
+
+                <label>Email Address</label>
+
+                <input
+                type="email"
+                placeholder="Enter your email"
+                required>
+
             </div>
 
-            <button type="submit">Submit</button>
+            <!-- Message -->
+
+            <div class="input-box">
+
+                <label>Your Message</label>
+
+                <textarea
+                placeholder="Write your message..."
+                required></textarea>
+
+            </div>
+
+            <!-- Button -->
+
+            <button type="submit">
+                Submit Form
+            </button>
 
         </form>
 
-        <div id="message">
+        <!-- Success Message -->
+
+        <div id="successMessage">
+
             Form Submitted Successfully ✅
+
         </div>
 
     </div>
 
-  
- <script src="script.js"></script>
+    <!-- JavaScript Link -->
+
+    <script src="script.js"></script>
 
 </body>
 </html>
