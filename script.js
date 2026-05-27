@@ -1,15 +1,15 @@
+const form =
+document.getElementById("contactForm");
 
-        const form = document.getElementById("contactForm");
-        const message = document.getElementById("message");
+const successMessage =
+document.getElementById("successMessage");
 
-        form.addEventListener("submit", function(event){
+form.addEventListener("submit", function(event){
 
-            event.preventDefault();
+    event.preventDefault();
 
-            message.style.display = "block";
+    successMessage.style.display = "block";
 
-            form.reset();
+    form.reset();
 
-        });
-
-    
+});
